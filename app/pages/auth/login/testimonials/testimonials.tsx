@@ -1,6 +1,6 @@
 export default function Testimonials() {
     return (
-        <div className="flex flex-col gap-[80px] my-[120px] mx-[80px]">
+        <section className="flex flex-col gap-[80px] my-[120px] mx-[80px]">
             <div className="flex justify-between items-end">
                 <div className="flex flex-col gap-[10px] w-3xl">
                     <p className="text-[#CAFF33] text-[38px]"><span className="text-white">Our </span>Testimonials</p>
@@ -72,6 +72,6 @@ export default function Testimonials() {
                     <img src="/login/arrow_right.png" alt="" className="w-[28px]" />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

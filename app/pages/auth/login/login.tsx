@@ -1,7 +1,7 @@
 import Header_Login from "./header/header"
 import LoginForm from "./loginSquare/loginform"
 import Testimonials from "./testimonials/testimonials"
-import Footer from "../../routes/mainPage/footer/footer"
+import Footer from "./footer/footer"
 
 export function Login() {
   return (

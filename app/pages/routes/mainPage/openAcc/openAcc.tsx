@@ -1,6 +1,6 @@
 export default function OpenAcc() {
   return (
-    <main className="relative py-[60px] pr-[200px] pl-[80px] flex justify-between">
+    <section className="relative py-[60px] pr-[200px] pl-[80px] flex justify-between">
       <img src="/mainPage/abstract_right.png" alt="" className="absolute right-[40px] w-[300px]" />
 
       <div className="max-w-[600px]">
@@ -122,6 +122,6 @@ export default function OpenAcc() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   )
 }

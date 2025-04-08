@@ -5,7 +5,7 @@ export default function SignUpForm() {
     const [showPassword, setShowPassword] = useState(false);
 
     return (
-        <div className="w-[1064px] h-fit bg-cover bg-no-repeat bg-center mt-[50px] flex items-center gap-[60px] flex-col mx-auto relative px-[200px] py-[80px]" style={{ backgroundImage: "url('/login/Login.png')" }}>
+        <section className="w-[1064px] h-fit bg-cover bg-no-repeat bg-center mt-[50px] flex items-center gap-[60px] flex-col mx-auto relative px-[200px] py-[80px]" style={{ backgroundImage: "url('/login/Login.png')" }}>
             <img src="/login/abstract.png" alt="" className="absolute z-[9999] w-[256px] h-[243px] right-0 top-0" />
 
             <div className="flex flex-col gap-[16px] items-center">
@@ -97,6 +97,6 @@ export default function SignUpForm() {
 
                 </div>
             </form>
-        </div>
+        </section>
     );
 }

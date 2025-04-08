@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="bg-[#1C1C1C] flex flex-col gap-[40px] pt-[60px] px-[80px] pb-[30px] items-center">
+        <footer className="bg-[#1C1C1C] flex flex-col gap-[40px] pt-[60px] px-[80px] pb-[30px] items-center">
             <div className="flex flex-col items-center gap-[40px]">
                 <img src="/login/logo.png" alt="" className="w-[132px]" />
 
@@ -44,6 +44,6 @@ export default function Footer() {
 
                 <p className="text-[#B3B3B3] text-[14px]">Privacy Policy | Terms of Service</p>
             </div>
-        </div>
+        </footer>
     )
 }

@@ -2,7 +2,10 @@ import Header from "./header/header"
 import OpenAcc from "./openAcc/openAcc"
 import Products from "./products/products"
 import UseCases from "./cases/useCases"
+import Features from "./features/features"
+import Frequently from "./frequently/frequently"
 import Testimonials from "./testimonials/testimonials"
+import Start from "./start/start"
 import Footer from "./footer/footer"
 
 export function MainPage() {
@@ -13,7 +16,10 @@ export function MainPage() {
       <OpenAcc />
       <Products />
       <UseCases />
+      <Features />
+      <Frequently />
       <Testimonials/>
+      <Start />
       <Footer />
     </main>
   )
