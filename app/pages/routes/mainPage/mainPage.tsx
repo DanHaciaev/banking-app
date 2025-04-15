@@ -15,8 +15,8 @@ export function MainPage() {
       <Header />
       <OpenAcc />
       <Products />
-      {/* <UseCases />
-      <Features />
+      <UseCases />
+      {/* <Features />
       <Frequently />
       <Testimonials/>
       <Start />
