@@ -181,7 +181,7 @@ export default function UseCases() {
                         <img src="/mainPage/cases_abstract.png" alt="" className="absolute left-0 top-0 phone:w-[118px] case:w-[224px]" />
                         <div className="relative z-[9999] grid grid-cols-2 gap-[10px]">
                             {/* First block */}
-                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px] phone:max-w-[154px] case:max-w-fit">
+                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px] ">
                                 <div className="relative flex items-center justify-center mt-[20px]">
 
                                     <div className="absolute phone:w-[64px] phone:h-[64px] 4xl:w-[78px] 4xl:h-[78px] rounded-full bg-[#CAFF33] opacity-5 "></div>
@@ -198,7 +198,7 @@ export default function UseCases() {
                             </div>
 
                             {/* Second block */}
-                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px] phone:max-w-[154px] case:max-w-fit">
+                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px]">
                                 <div className="relative flex items-center justify-center mt-[20px]">
 
                                     <div className="absolute phone:w-[64px] phone:h-[64px] 4xl:w-[78px] 4xl:h-[78px] rounded-full bg-[#CAFF33] opacity-5 "></div>
@@ -215,7 +215,7 @@ export default function UseCases() {
                             </div>
 
                             {/* Third block */}
-                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px] phone:max-w-[154px] case:max-w-fit">
+                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px]">
                                 <div className="relative flex items-center justify-center mt-[20px]">
 
                                     <div className="absolute phone:w-[64px] phone:h-[64px] 4xl:w-[78px] 4xl:h-[78px] rounded-full bg-[#CAFF33] opacity-5 "></div>
@@ -232,7 +232,7 @@ export default function UseCases() {
                             </div>
 
                             {/* Fourth block */}
-                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px] phone:max-w-[154px] case:max-w-fit">
+                            <div className="phone:px-[14px] phone:py-[20px] case:p-[24px] 4xl:p-[30px] bg-[#1A1A1A] border-[1px] border-[#262626] rounded-[12px] flex flex-col items-center gap-[30px]">
                                 <div className="relative flex items-center justify-center mt-[20px]">
 
                                     <div className="absolute phone:w-[64px] phone:h-[64px] 4xl:w-[78px] 4xl:h-[78px] rounded-full bg-[#CAFF33] opacity-5 "></div>
