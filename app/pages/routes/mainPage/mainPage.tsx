@@ -14,8 +14,8 @@ export function MainPage() {
       <img src="/left-abstract.png" alt="" className="absolute top-0 w-[540px] 4xl:w-[750px] z-[1]"/>
       <Header />
       <OpenAcc />
-      {/* <Products />
-      <UseCases />
+      <Products />
+      {/* <UseCases />
       <Features />
       <Frequently />
       <Testimonials/>

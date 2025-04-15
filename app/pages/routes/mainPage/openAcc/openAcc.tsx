@@ -1,6 +1,6 @@
 export default function OpenAcc() {
   return (
-    <section className="relative py-[60px] 2xl:pr-[100px] 3xl:pr-[200px] phone:px-[20px] 2xl:pl-[80px] flex justify-between middle:flex-row phone:items-center middle:items-baseline phone:flex-col phone:gap-[90px] 3xl:gap-0 middle:gap-[56px] overflow-hidden">
+    <section className="relative py-[70px] 2xl:pr-[100px] 3xl:pr-[200px] phone:px-[20px] 2xl:pl-[80px] flex justify-between middle:flex-row phone:items-center middle:items-baseline phone:flex-col phone:gap-[90px] 3xl:gap-0 middle:gap-[56px] overflow-hidden">
 
 
       <div className="max-w-[600px] 5xl:max-w-[740px] phone:items-center flex flex-col middle:items-baseline overflow-hidden">
