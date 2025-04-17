@@ -17,8 +17,8 @@ export function MainPage() {
       <Products />
       <UseCases />
       <Features />
-      {/* <Frequently />
-      <Testimonials/>
+      <Frequently />
+      {/* <Testimonials/>
       <Start />
       <Footer /> */}
     </main>

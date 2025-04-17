@@ -7,18 +7,18 @@ export default function Frequently() {
     const toggleFAQ = () => setShowMore(!showMore);
 
     return (
-        <section className="flex flex-col gap-[60px] mt-[120px] mx-[80px]">
+        <section className="flex flex-col gap-[60px] mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[10px]">
-                <p className="text-[#CAFF33] text-[38px]">
+                <p className="text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]">
                     Frequently <span className="text-white">Asked Questions</span>
                 </p>
-                <p className="text-[#B3B3B3] text-[14px]">
+                <p className="text-[#B3B3B3] phone:text-center 2xl:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                     Still you have any questions?
                     Contact our Team via support@yourbank.com
                 </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-[20px]">
+            <div className="phone:flex phone:flex-col 2xl:grid 2xl:grid-cols-2 phone:gap-[20px] 4xl:gap-[30px]">
                 {/* Initial FAQ blocks */}
                 {[
                     {
@@ -38,10 +38,10 @@ export default function Frequently() {
                         answer: "At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place.",
                     },
                 ].map((faq, index) => (
-                    <div key={index} className="p-[40px] rounded-[10px] flex flex-col gap-[24px] border-[1px] border-[#262626]">
-                        <p className="text-white text-[18px]">{faq.question}</p>
+                    <div key={index} className="phone:p-[30px] 2xl:p-[40px] 4xl:p-[50px] rounded-[10px] flex flex-col gap-[24px] border-[1px] border-[#262626]">
+                        <p className="text-white phone:text-[18px] 4xl:text-[20px]">{faq.question}</p>
                         <hr className="border-[#262626]" />
-                        <p className="text-[#B3B3B3]">{faq.answer}</p>
+                        <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">{faq.answer}</p>
                     </div>
                 ))}
 
@@ -63,11 +63,11 @@ export default function Frequently() {
                                     animate={{ opacity: 1, y: 0 }}
                                     exit={{ opacity: 0, y: -20 }}
                                     transition={{ duration: 0.4 }}
-                                    className="p-[40px] rounded-[10px] flex flex-col gap-[24px] border-[1px] border-[#262626]"
+                                    className="phone:p-[30px] 2xl:p-[40px] 4xl:p-[50px] rounded-[10px] flex flex-col gap-[24px] border-[1px] border-[#262626]"
                                 >
-                                    <p className="text-white text-[18px]">{faq.question}</p>
+                                    <p className="text-white phone:text-[18px] 4xl:text-[20px]">{faq.question}</p>
                                     <hr className="border-[#262626]" />
-                                    <p className="text-[#B3B3B3]">{faq.answer}</p>
+                                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">{faq.answer}</p>
                                 </motion.div>
                             ))}
                         </>
