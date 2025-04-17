@@ -51,7 +51,7 @@ export default function Header() {
         `}
       >
         <div className="flex flex-col gap-[20px] items-center p-[20px]">
-          <Link to="/">Home</Link>
+          <Link to="/" className="text-white">Home</Link>
           <p className="text-white">Careers</p>
           <p className="text-white">About</p>
           <p className="text-white">Security</p>

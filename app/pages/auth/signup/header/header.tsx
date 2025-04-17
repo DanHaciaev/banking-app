@@ -25,7 +25,7 @@ export default function Header() {
 
       {/* Desktop Nav */}
       <nav className="flex items-center gap-[26px] text-white text-[14px] 4xl:text-[18px] phone:hidden 2xl:flex">
-        <Link to="/">Home</Link>
+        <Link to="/" >Home</Link>
         <p>Careers</p>
         <p>About</p>
         <p>Security</p>
@@ -50,8 +50,8 @@ export default function Header() {
           ${isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}
         `}
       >
-        <div className="flex flex-col gap-[20px] items-center p-[20px]">
-          <Link to="/">Home</Link>
+        <div className="flex flex-col gap-[20px] items-center p-[20px] ">
+          <Link to="/" className="text-white">Home</Link>
           <p className="text-white">Careers</p>
           <p className="text-white">About</p>
           <p className="text-white">Security</p>
