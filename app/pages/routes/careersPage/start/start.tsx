@@ -2,7 +2,7 @@ import { Link } from "react-router"
 
 export default function Start() {
     return (
-        <section className="relative flex justify-between phone:gap-[24px] 2xl:gap-[80px] my-[120px] phone:mx-[20px] 2xl:mx-[80px] phone:p-[30px] 2xl:p-[60px] 4xl:p-[80px] phone:flex-col 2xl:flex-row items-center bg-[#1C1C1C] border-[1px] border-[#262626] rounded-[20px]">
+        <section className="relative flex justify-between phone:gap-[24px] 2xl:gap-[80px] phone:my-[80px] 2xl:my-[120px] phone:mx-[20px] 2xl:mx-[80px] phone:p-[30px] 2xl:p-[60px] 4xl:p-[80px] phone:flex-col 2xl:flex-row items-center bg-[#1C1C1C] border-[1px] border-[#262626] rounded-[20px]">
             <img src="/mainPage/cases_abstract.png" alt="" className="absolute top-0 left-0 phone:w-[151px] 2xl:w-[202px] 4xl:w-[298px]" />
 
             <div className="flex flex-col phone:gap-[14px] 2xl:gap-[10px] 4xl:gap-[14px] max-w-[768px] 4xl:max-w-[1103px] relative z-10">
