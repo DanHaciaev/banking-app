@@ -51,8 +51,8 @@ export default function Header() {
         `}
       >
         <div className="flex flex-col gap-[20px] items-center p-[20px]">
-          <Link to="/" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px] text-white">Home</Link>
-          <Link to="/careers" className="text-white">Careers</Link>
+          <Link to="/" className="text-white">Home</Link>
+          <Link to="/careers" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px] text-white">Careers</Link>
           <p className="text-white">About</p>
           <p className="text-white">Security</p>
           <Link to="/signUp" className="text-white text-[14px] 4xl:text-[18px] mt-[20px]">Sign Up</Link>
