@@ -8,7 +8,7 @@ export default function Footer() {
 
                 <nav className="flex items-center phone:gap-[14px] 4xl:gap-[26px] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                     <Link to="/">Home</Link>
-                    <p>Careers</p>
+                    <Link to="/careers">Careers</Link>
                     <p>About</p>
                     <p>Security</p>
                 </nav>

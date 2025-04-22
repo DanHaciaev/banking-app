@@ -26,7 +26,7 @@ export default function Header() {
       {/* Desktop Nav */}
       <nav className="flex items-center gap-[26px] text-white text-[14px] 4xl:text-[18px] phone:hidden 2xl:flex">
         <Link to="/">Home</Link>
-        <p>Careers</p>
+        <Link to="/careers">Careers</Link>
         <p>About</p>
         <p>Security</p>
       </nav>
@@ -52,7 +52,7 @@ export default function Header() {
       >
         <div className="flex flex-col gap-[20px] items-center p-[20px]">
           <Link to="/" className="text-white">Home</Link>
-          <p className="text-white">Careers</p>
+          <Link to="/careers" className="text-white">Careers</Link>
           <p className="text-white">About</p>
           <p className="text-white">Security</p>
           <Link to="/signUp" className="text-white text-[14px] 4xl:text-[18px] mt-[20px]">Sign Up</Link>

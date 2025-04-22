@@ -8,10 +8,10 @@ export default function Start() {
             <div className="flex flex-col phone:gap-[14px] 2xl:gap-[10px] 4xl:gap-[14px] max-w-[768px] 4xl:max-w-[1103px] relative z-10">
                 <p className="text-[#CAFF33] phone:text-[24px] 2xl:text-[30px] 4xl:text-[40px] phone:text-center 2xl:text-left"><span className="text-white">Start your financial journey with </span>YourBank today!</p>
                 <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
-                    Lorem ipsum dolor sit amet consectetur.
-                    Blandit odio semper risus pellentesque
-                    elit. Pellentesque eget ut imperdiet
-                    nulla penatibus. Nascetur viverra arcu
+                    Lorem ipsum dolor sit amet consectetur. 
+                    Blandit odio semper risus pellentesque 
+                    elit. Pellentesque eget ut imperdiet 
+                    nulla penatibus. Nascetur viverra arcu 
                     sed amet cursus purus.
                 </p>
             </div>
