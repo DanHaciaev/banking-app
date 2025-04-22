@@ -1,6 +1,7 @@
 import Header from "./header/header"
 import Main from "./main/main"
 import Values from "./values/values"
+import Benefits from "./benefits/benefits"
 import Frequently from "./frequently/frequently"
 import Start from "./start/start"
 import Footer from "./footer/footer"
@@ -13,6 +14,7 @@ export function CareersPage() {
       <Header />
       <Main />
       <Values />
+      <Benefits />
       <Frequently />
       <Start />
       <Footer />
