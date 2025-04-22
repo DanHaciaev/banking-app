@@ -1,8 +1,10 @@
 import Header from "./header/header"
+import Main from "./main/main"
+import Values from "./values/values"
 import Frequently from "./frequently/frequently"
 import Start from "./start/start"
 import Footer from "./footer/footer"
-import Main from "./main/Main"
+
 
 export function CareersPage() {
   return (
@@ -10,6 +12,7 @@ export function CareersPage() {
       <img src="/left-abstract.png" alt="" className="absolute top-0 w-[540px] 4xl:w-[750px] z-[1]"/>
       <Header />
       <Main />
+      <Values />
       <Frequently />
       <Start />
       <Footer />
