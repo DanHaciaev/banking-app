@@ -10,7 +10,7 @@ export default function Footer() {
                     <Link to="/">Home</Link>
                     <Link to="/careers">Careers</Link>
                     <Link to="/about">About</Link>
-                    <p>Security</p>
+                    <Link to="/security">Security</Link>
                 </nav>
             </div>
 

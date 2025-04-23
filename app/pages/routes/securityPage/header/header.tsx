@@ -25,10 +25,10 @@ export default function Header() {
 
       {/* Desktop Nav */}
       <nav className="flex items-center gap-[26px] text-white text-[14px] 4xl:text-[18px] phone:hidden 2xl:flex">
-        <Link to="/" >Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/careers">Careers</Link>
         <Link to="/about">About</Link>
-        <Link to="/security">Security</Link>
+        <Link to="/security" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px]">Security</Link>
       </nav>
 
       {/* Desktop Auth */}
@@ -50,10 +50,10 @@ export default function Header() {
           ${isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}
         `}
       >
-        <div className="flex flex-col gap-[20px] items-center p-[20px] ">
+        <div className="flex flex-col gap-[20px] items-center p-[20px]">
           <Link to="/" className="text-white">Home</Link>
           <Link to="/careers" className="text-white">Careers</Link>
-          <Link to="/about" className="text-white">About</Link>
+          <Link to="/about" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px] text-white">About</Link>
           <Link to="/security" className="text-white">Security</Link>
           <Link to="/signUp" className="text-white text-[14px] 4xl:text-[18px] mt-[20px]">Sign Up</Link>
           <Link to="/logIn" className="bg-[#CAFF33] rounded-[82px] py-[12px] w-fit px-[24px] text-[#1C1C1C] text-[14px] 4xl:text-[18px]">Login</Link>
