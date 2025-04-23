@@ -24,7 +24,7 @@ export default function Header() {
       <img src="/login/logo.png" alt="" className="2xl:w-[117px] 4xl:w-[156px] phone:w-[102px]" />
 
       {/* Desktop Nav */}
-      <nav className="flex items-center gap-[26px] text-white text-[14px] 4xl:text-[18px] phone:hidden 2xl:flex">
+      <nav className="flex items-center gap-[26px] text-white text-[14px] 4xl:text-[18px] phone:hidden 2xl:flex font-[Lexend-Regular]">
         <Link to="/" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px]">Home</Link>
         <Link to="/careers">Careers</Link>
         <Link to="/about">About</Link>
@@ -32,7 +32,7 @@ export default function Header() {
       </nav>
 
       {/* Desktop Auth */}
-      <div className="flex items-center gap-[20px] phone:hidden 2xl:flex">
+      <div className="flex items-center gap-[20px] phone:hidden 2xl:flex font-[Lexend-Regular]">
         <Link to="/signUp" className="text-white text-[14px] 4xl:text-[18px]">Sign Up</Link>
         <Link to="/logIn" className="bg-[#CAFF33] rounded-[82px] py-[12px] px-[24px] text-[#1C1C1C] text-[14px] 4xl:text-[18px]">Login</Link>
       </div>
@@ -50,7 +50,7 @@ export default function Header() {
           ${isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}
         `}
       >
-        <div className="flex flex-col gap-[20px] items-center p-[20px]">
+        <div className="flex flex-col gap-[20px] items-center p-[20px] font-[Lexend-Regular]">
           <Link to="/" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px] text-white">Home</Link>
           <Link to="/careers" className="text-white">Careers</Link>
           <Link to="/about" className="text-white">About</Link>
