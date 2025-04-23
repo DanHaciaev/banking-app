@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1C1C1C] flex flex-col phone:pt-[50px] phone:px-[20px] phone:pb-[30px] phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] 2xl:pt-[60px] 2xl:px-[80px] 4xl:px-[162px] 4xl:pt-[100px] 4xl:pb-[50px] items-center">
+        <footer className="bg-[#1C1C1C] flex flex-col phone:pt-[50px] phone:px-[20px] phone:pb-[30px] phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] 2xl:pt-[60px] 2xl:px-[80px] 4xl:px-[162px] 4xl:pt-[100px] 4xl:pb-[50px] items-center phone:mt-[80px] 2xl:mt-[120px]">
             <div className="flex flex-col items-center phone:gap-[24px] 2xl:gap-[40px] 4xl:gap-[50px]">
                 <img src="/login/logo.png" alt="" className="phone:w-[132px] 4xl:w-[156px]" />
 

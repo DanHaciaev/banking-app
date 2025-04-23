@@ -1,6 +1,7 @@
 import Header from "./header/header"
 import Main from "./main/main"
 import Mission from "./mission/mission"
+import Press from "./press/press"
 import Footer from "./footer/footer"
 
 
@@ -10,6 +11,7 @@ export function AboutPage() {
       <Header />
       <Main />
       <Mission />
+      <Press />
       <Footer />
     </main>
   )
