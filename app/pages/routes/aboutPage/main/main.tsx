@@ -1,6 +1,6 @@
 export default function Main() {
     return (
-        <section className="bg-[#1C1C1C] rounded-[20px] phone:my-[30px] 2xl:my-[55px] phone:px-[14px] phone:pt-[14px] phone:pb-0 2xl:p-[40px] 4xl:p-[50px] phone:mx-[20px] 2xl:mx-[80px] relative">
+        <section className="bg-[#1C1C1C] rounded-[20px] phone:mt-[30px] 2xl:mt-[55px] phone:px-[14px] phone:pt-[14px] phone:pb-0 2xl:p-[40px] 4xl:p-[50px] phone:mx-[20px] 2xl:mx-[80px] relative">
             <img src="/careers/right_abstract.png" alt="" className="absolute phone:w-[200px] 2xl:w-[334px] 4xl:w-[505px] right-0 top-0" />
 
 

@@ -7,7 +7,7 @@ export default function Frequently() {
     const toggleFAQ = () => setShowMore(!showMore);
 
     return (
-        <section className="flex flex-col gap-[60px] mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
+        <section className="flex flex-col gap-[60px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[10px]">
                 <p className="text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]">
                     Frequently <span className="text-white">Asked Questions</span>

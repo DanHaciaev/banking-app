@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <section className="flex flex-col phone:gap-[50px] middle:gap-[80px] mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
+    <section className="flex flex-col phone:gap-[50px] middle:gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
       <div className="flex flex-col gap-[10px]">
         <p className="text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Features</p>
         <p className="text-[#B3B3B3] phone:text-center 2xl:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">

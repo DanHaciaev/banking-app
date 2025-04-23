@@ -1,6 +1,6 @@
 export default function Products() {
     return (
-        <section className="flex flex-col gap-[80px] mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
+        <section className="flex flex-col gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex justify-between items-end phone:gap-[48px] phone:flex-col 2xl:flex-row phone:items-center">
                 <div className="flex flex-col gap-[10px] max-w-3xl">
                     <p className="text-[#CAFF33] phone:text-center 2xl:text-left phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Products</p>

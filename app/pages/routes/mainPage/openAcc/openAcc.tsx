@@ -1,11 +1,13 @@
+import { Link } from "react-router"
+
 export default function OpenAcc() {
   return (
-    <section className="relative py-[70px] 2xl:pr-[100px] 3xl:pr-[200px] phone:px-[20px] 2xl:pl-[80px] flex justify-between middle:flex-row phone:items-center middle:items-baseline phone:flex-col phone:gap-[90px] 3xl:gap-0 middle:gap-[56px] overflow-hidden">
+    <section className="relative phone:pt-[50px] phone:py-[60px] 2xl:py-[70px] 2xl:pr-[100px] 3xl:pr-[200px] phone:px-[20px] 2xl:pl-[80px] flex justify-between middle:flex-row phone:items-center middle:items-baseline phone:flex-col phone:gap-[90px] 3xl:gap-0 middle:gap-[56px] overflow-hidden">
 
 
       <div className="max-w-[600px] 5xl:max-w-[740px] phone:items-center flex flex-col middle:items-baseline overflow-hidden">
         <div className="flex items-center gap-[4px] py-[8px] pl-[8px] pr-[16px] mb-[16px] bg-[#262626] rounded-[61px] w-fit">
-          <img src="/mainPage/top_icon.png" alt="" className="w-[20px] 5xl:w-[24px]"/>
+          <img src="/mainPage/top_icon.png" alt="" className="w-[20px] 5xl:w-[24px]" />
           <p className="phone:text-[12px] 2xl:text-[14px] text-white 5xl:text-[18px]">No LLC Required, No Credit Check.</p>
         </div>
 
@@ -13,7 +15,9 @@ export default function OpenAcc() {
 
         <p className="text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 5xl:text-[18px] phone:text-center middle:text-left">At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.</p>
 
-        <button className="mt-[40px] py-[14px] px-[24px] bg-[#CAFF33] rounded-[82px] w-fit text-[14px] 5xl:text-[18px]">Open Account</button>
+        <button className="mt-[40px] py-[14px] px-[24px] bg-[#CAFF33] rounded-[82px] w-fit text-[14px] 5xl:text-[18px]">
+          <Link to="/signUp">Open Account</Link>
+        </button>
       </div>
 
 

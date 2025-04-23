@@ -32,7 +32,7 @@ export default function Testimonials() {
     ];
 
     return (
-        <section className="flex flex-col phone:gap-[20px] 2xl:gap-[60px] my-[120px] phone:mx-[20px] 2xl:mx-[80px]">
+        <section className="flex flex-col phone:gap-[20px] 2xl:gap-[60px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex justify-between 2xl:items-end phone:items-center gap-[30px] phone:flex-col 2xl:flex-row">
                 <div className="flex flex-col gap-[10px] max-w-3xl">
                     <p className="text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Testimonials</p>
@@ -100,4 +100,5 @@ export default function Testimonials() {
             </div>
         </section>
     );
+
 }
