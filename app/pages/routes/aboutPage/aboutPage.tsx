@@ -1,5 +1,6 @@
 import Header from "./header/header"
 import Main from "./main/main"
+import Mission from "./mission/mission"
 import Footer from "./footer/footer"
 
 
@@ -8,6 +9,7 @@ export function AboutPage() {
     <main className="bg-[#1A1A1A] pt-[30px] h-fit relative z-[9999]">
       <Header />
       <Main />
+      <Mission />
       <Footer />
     </main>
   )

@@ -2,7 +2,7 @@ export default function Openings() {
     return (
         <section className="flex flex-col phone:gap-[60px] 4xl:gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[20px]">
-                <p className="text-white phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">Job <span className="text-[#CAFF33]">Openings</span></p>
+                <p className="text-[#CAFF33] phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">Job Openings</p>
 
                 <p className="text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
                     Explore exciting job openings at YourBank,
