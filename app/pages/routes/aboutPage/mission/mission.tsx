@@ -2,9 +2,9 @@ export default function Mission() {
     return (
         <section className="flex flex-col phone:gap-[60px] 4xl:gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[20px]">
-                <p className="text-[#CAFF33] phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">Our <span className="text-[#CAFF33]">Mission & Vision</span></p>
+                <p className="font-[Lexend-Medium] text-[#CAFF33] phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">Our <span className="text-[#CAFF33]">Mission & Vision</span></p>
 
-                <p className="text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
+                <p className="font-[Lexend-Light] text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
                     We envision being a leading force in
                     the industry, driven by innovation,
                     integrity, and inclusivity, creating a
@@ -26,9 +26,9 @@ export default function Mission() {
 
 
                     <div className="flex flex-col gap-[10px] about:border-l-[1px] phone:border-t-[1px] about:border-t-0 phone:border-w border-[#CAFF33] phone:pt-[30px] about:pt-0 about:pl-[40px] 4xl:pl-[50px]">
-                        <p className="phone:text-center about:text-left phone:text-[26px] 2xl:text-[32px] 4xl:text-[38px] text-white">Mission</p>
+                        <p className="font-[Lexend-Medium] phone:text-center about:text-left phone:text-[26px] 2xl:text-[32px] 4xl:text-[38px] text-white">Mission</p>
 
-                        <p className="phone:text-center about:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">
+                        <p className="font-[Lexend-Light] phone:text-center about:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">
                             At YourBank, our mission is to empower our
                             customers to achieve financial success. We
                             are dedicated to delivering innovative banking
@@ -53,9 +53,9 @@ export default function Mission() {
 
 
                     <div className="flex flex-col gap-[10px] about:border-r-[1px] phone:border-t-[1px] about:border-t-0 phone:border-w border-[#CAFF33] phone:pt-[30px] about:pt-0 about:pr-[40px] 4xl:pr-[50px]">
-                        <p className="phone:text-center about:text-left phone:text-[26px] 2xl:text-[32px] 4xl:text-[38px] text-white">Vision</p>
+                        <p className="font-[Lexend-Medium] phone:text-center about:text-left phone:text-[26px] 2xl:text-[32px] 4xl:text-[38px] text-white">Vision</p>
 
-                        <p className="phone:text-center about:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">
+                        <p className="font-[Lexend-Light] phone:text-center about:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">
                             Our vision at YourBank is to redefine
                             banking by creating a seamless and personalized
                             experience for our customers. We envision a 

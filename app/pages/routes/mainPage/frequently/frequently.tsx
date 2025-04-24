@@ -9,10 +9,10 @@ export default function Frequently() {
     return (
         <section className="flex flex-col gap-[60px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[10px]">
-                <p className="text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]">
+                <p className="font-[Lexend-Medium] text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]">
                     Frequently <span className="text-white">Asked Questions</span>
                 </p>
-                <p className="text-[#B3B3B3] phone:text-center 2xl:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-center 2xl:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                     Still you have any questions?
                     Contact our Team via support@yourbank.com
                 </p>
@@ -39,9 +39,9 @@ export default function Frequently() {
                     },
                 ].map((faq, index) => (
                     <div key={index} className="phone:p-[30px] 2xl:p-[40px] 4xl:p-[50px] rounded-[10px] flex flex-col gap-[24px] border-[1px] border-[#262626]">
-                        <p className="text-white phone:text-[18px] 4xl:text-[20px]">{faq.question}</p>
+                        <p className="font-[Lexend-Medium] text-white phone:text-[18px] 4xl:text-[20px]">{faq.question}</p>
                         <hr className="border-[#262626]" />
-                        <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">{faq.answer}</p>
+                        <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">{faq.answer}</p>
                     </div>
                 ))}
 
@@ -65,9 +65,9 @@ export default function Frequently() {
                                     transition={{ duration: 0.4 }}
                                     className="phone:p-[30px] 2xl:p-[40px] 4xl:p-[50px] rounded-[10px] flex flex-col gap-[24px] border-[1px] border-[#262626]"
                                 >
-                                    <p className="text-white phone:text-[18px] 4xl:text-[20px]">{faq.question}</p>
+                                    <p className="font-[Lexend-Medium] text-white phone:text-[18px] 4xl:text-[20px]">{faq.question}</p>
                                     <hr className="border-[#262626]" />
-                                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">{faq.answer}</p>
+                                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">{faq.answer}</p>
                                 </motion.div>
                             ))}
                         </>
@@ -78,7 +78,7 @@ export default function Frequently() {
             {/* Toggle button */}
             <button
                 onClick={toggleFAQ}
-                className="w-fit mx-auto mt-[-40px] px-[20px] flex items-center gap-[8px] py-[14px] text-white text-[14px] rounded-[100px] bg-[#1C1C1C] border-[1px] border-[#262626] transition-all duration-300"
+                className="font-[Lexend-Regular] w-fit mx-auto mt-[-40px] px-[20px] flex items-center gap-[8px] py-[14px] text-white text-[14px] rounded-[100px] bg-[#1C1C1C] border-[1px] border-[#262626] transition-all duration-300"
             >
                 {showMore ? 'Hide Extra FAQ\'s' : 'Load All FAQ\'s'}
                 <motion.img

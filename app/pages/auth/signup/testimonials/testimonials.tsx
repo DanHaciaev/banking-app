@@ -32,11 +32,11 @@ export default function Testimonials() {
     ];
 
     return (
-        <section className="flex flex-col phone:gap-[20px] 2xl:gap-[60px] my-[120px] phone:mx-[20px] 2xl:mx-[80px]">
+        <section className="flex flex-col phone:gap-[20px] 2xl:gap-[60px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex justify-between 2xl:items-end phone:items-center gap-[30px] phone:flex-col 2xl:flex-row">
                 <div className="flex flex-col gap-[10px] max-w-3xl">
-                    <p className="text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Testimonials</p>
-                    <p className="text-[#B3B3B3] phone:text-center 2xl:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Medium] text-[#CAFF33] phone:text-center phone:text-[28px] 2xl:text-left 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Testimonials</p>
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-center 2xl:text-left phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         Discover how YourBank has transformed lives with
                         innovative digital solutions and personalized customer
                         service. See why our clients trust us for a secure
@@ -45,8 +45,8 @@ export default function Testimonials() {
                 </div>
 
                 <div className="bg-[#1C1C1C] border-[1px] border-[#262626] flex items-center rounded-[82px] h-fit p-[12px]">
-                    <button className="bg-[#CAFF33] px-[18px] py-[10px] rounded-[140px] whitespace-nowrap">For Individuals</button>
-                    <button className="px-[18px] py-[10px] text-white whitespace-nowrap">For Businesses</button>
+                    <button className="font-[Lexend-Regular] bg-[#CAFF33] px-[18px] py-[10px] rounded-[140px] whitespace-nowrap">For Individuals</button>
+                    <button className="font-[Lexend-Regular] px-[18px] py-[10px] text-white whitespace-nowrap">For Businesses</button>
                 </div>
             </div>
 
@@ -72,8 +72,8 @@ export default function Testimonials() {
                                 <div className="relative border-[1px] border-[#B3B3B3] w-full">
                                     <img src="/login/zap.png" className="w-[44px] bg-[#1A1A1A] absolute left-[50%] translate-[-50%]" />
                                 </div>
-                                <p className="text-white text-center phone:min-h-fit 2xl:min-h-[144px]">{item.text}</p>
-                                <p className="text-[#CAFF33]">{item.name}</p>
+                                <p className="font-[Lexend-Regular] text-white text-center phone:min-h-fit 2xl:min-h-[144px]">{item.text}</p>
+                                <p className="font-[Lexend-Medium] text-[#CAFF33]">{item.name}</p>
                             </div>
                         </SwiperSlide>
                     ))}
@@ -100,4 +100,5 @@ export default function Testimonials() {
             </div>
         </section>
     );
+
 }

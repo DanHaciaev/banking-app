@@ -2,9 +2,9 @@ export default function Benefits() {
     return (
         <section className="flex flex-col phone:gap-[60px] 4xl:gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[20px]">
-                <p className="text-white phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">Our <span className="text-[#CAFF33]">Benefits</span></p>
+                <p className="font-[Lexend-Medium] text-white phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">Our <span className="text-[#CAFF33]">Benefits</span></p>
 
-                <p className="text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
+                <p className="font-[Lexend-Light] text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
                     At YourBank, we value our employees and
                     are dedicated to their well-being and
                     success. We offer a comprehensive range of
@@ -28,10 +28,10 @@ export default function Benefits() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Competitive Compensation</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Competitive Compensation</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We provide a competitive salary package
                         that recognizes the skills and expertise
                         of our employees. YourBank believes in
@@ -53,10 +53,10 @@ export default function Benefits() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Health and Wellness</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Health and Wellness</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We prioritize the health and well-being of
                         our employees by providing comprehensive medical,
                         dental, and vision insurance plans. We also offer
@@ -78,10 +78,10 @@ export default function Benefits() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Retirement Planning</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Retirement Planning</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         YourBank is committed to helping employees
                         plan for their future. We offer a retirement
                         savings plan with a generous employer match
@@ -103,10 +103,10 @@ export default function Benefits() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Work-Life Balance</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-center ">Work-Life Balance</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We understand the importance of maintaining 
                         a healthy work-life balance. YourBank offers 
                         flexible work arrangements, paid time off, 

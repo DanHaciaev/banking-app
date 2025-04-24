@@ -3,8 +3,8 @@ export default function Products() {
         <section className="flex flex-col gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex justify-between items-end phone:gap-[48px] phone:flex-col 2xl:flex-row phone:items-center">
                 <div className="flex flex-col gap-[10px] max-w-3xl">
-                    <p className="text-[#CAFF33] phone:text-center 2xl:text-left phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Products</p>
-                    <p className="text-[#B3B3B3] phone:text-center 2xl:text-left text-[14px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Medium] text-[#CAFF33] phone:text-center 2xl:text-left phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Our </span>Products</p>
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-center 2xl:text-left text-[14px] 4xl:text-[18px]">
                         Discover a range of comprehensive and customizable
                         banking products at YourBank, designed to suit your
                         unique financial needs and aspirations
@@ -12,8 +12,8 @@ export default function Products() {
                 </div>
 
                 <div className="bg-[#1C1C1C] border-[1px] border-[#262626] flex items-center rounded-[82px] h-fit p-[12px]">
-                    <button className="bg-[#CAFF33] px-[18px] py-[10px] rounded-[140px] phone:text-[14px] 4xl:text-[18px] whitespace-nowrap">For Individuals</button>
-                    <button className="px-[18px] py-[10px] text-white phone:text-[14px] 4xl:text-[18px] whitespace-nowrap">For Businesses</button>
+                    <button className="font-[Lexend-Regular] bg-[#CAFF33] px-[18px] py-[10px] rounded-[140px] phone:text-[14px] 4xl:text-[18px] whitespace-nowrap">For Individuals</button>
+                    <button className="font-[Lexend-Regular] px-[18px] py-[10px] text-white phone:text-[14px] 4xl:text-[18px] whitespace-nowrap">For Businesses</button>
                 </div>
             </div>
 
@@ -32,9 +32,9 @@ export default function Products() {
                     </div>
 
                     <div className="flex items-center flex-col gap-[16px]">
-                        <p className="text-[20px] 4xl:text-[24px] text-white">Checking Accounts</p>
+                        <p className="font-[Lexend-Regular] text-[20px] 4xl:text-[24px] text-white">Checking Accounts</p>
 
-                        <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] text-center">
+                        <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] text-center">
                             Enjoy easy and convenient access to your funds
                             with our range of checking account options. Benefit
                             from features such as online and mobile banking,
@@ -59,9 +59,9 @@ export default function Products() {
                     </div>
 
                     <div className="flex items-center flex-col gap-[16px]">
-                        <p className="text-[20px] 4xl:text-[24px] text-white">Savings Accounts</p>
+                        <p className="font-[Lexend-Regular] text-[20px] 4xl:text-[24px] text-white">Savings Accounts</p>
 
-                        <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] text-center">
+                        <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] text-center">
                             Build your savings with our competitive interest
                             rates and flexible savings account options. Whether
                             you're saving for a specific goal or want to grow
@@ -87,9 +87,9 @@ export default function Products() {
                     </div>
 
                     <div className="flex items-center flex-col gap-[16px]">
-                        <p className="text-[20px] 4xl:text-[24px] text-white">Loans and Mortgages</p>
+                        <p className="font-[Lexend-Regular] text-[20px] 4xl:text-[24px] text-white">Loans and Mortgages</p>
 
-                        <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] text-center">
+                        <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] text-center">
                             Realize your dreams with our flexible
                             loan and mortgage options. From personal
                             loans to home mortgages, our experienced

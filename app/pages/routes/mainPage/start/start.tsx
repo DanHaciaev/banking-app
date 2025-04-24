@@ -6,8 +6,8 @@ export default function Start() {
             <img src="/mainPage/cases_abstract.png" alt="" className="absolute top-0 left-0 phone:w-[151px] 2xl:w-[202px] 4xl:w-[298px]" />
 
             <div className="flex flex-col phone:gap-[14px] 2xl:gap-[10px] 4xl:gap-[14px] max-w-[768px] 4xl:max-w-[1103px] relative z-10">
-                <p className="text-[#CAFF33] phone:text-[24px] 2xl:text-[30px] 4xl:text-[40px] phone:text-center 2xl:text-left"><span className="text-white">Start your financial journey with </span>YourBank today!</p>
-                <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
+                <p className="font-[Lexend-Regular] text-[#CAFF33] phone:text-[24px] 2xl:text-[30px] 4xl:text-[40px] phone:text-center 2xl:text-left"><span className="text-white">Start your financial journey with </span>YourBank today!</p>
+                <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
                     Lorem ipsum dolor sit amet consectetur.
                     Blandit odio semper risus pellentesque
                     elit. Pellentesque eget ut imperdiet
@@ -16,7 +16,7 @@ export default function Start() {
                 </p>
             </div>
 
-            <button className="phone:py-[14px] phone:px-[24px] 4xl:py-[18px] 4xl:px-[30px] bg-[#CAFF33] rounded-[82px] w-fit phone:text-[14px] 4xl:text-[18px] whitespace-nowrap">
+            <button className="font-[Lexend-Regular] phone:py-[14px] phone:px-[24px] 4xl:py-[18px] 4xl:px-[30px] bg-[#CAFF33] rounded-[82px] w-fit phone:text-[14px] 4xl:text-[18px] whitespace-nowrap">
                 <Link to="/signUp">Open Account</Link>
             </button>
         </section>

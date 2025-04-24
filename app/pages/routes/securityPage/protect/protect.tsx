@@ -2,9 +2,9 @@ export default function Protect() {
     return (
         <section className="flex flex-col phone:gap-[60px] 4xl:gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[20px]">
-                <p className="text-white phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">How We <span className="text-[#CAFF33]">Protect You</span></p>
+                <p className="font-[Lexend-Medium] text-white phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px] leading-[150%] phone:text-center 2xl:text-left">How We <span className="text-[#CAFF33]">Protect You</span></p>
 
-                <p className="text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
+                <p className="font-[Lexend-Light] text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] phone:text-center 2xl:text-left">
                     At YourBank, we prioritize the security
                     and confidentiality of your financial
                     information. Our state-of-the-art encryption
@@ -29,10 +29,10 @@ export default function Protect() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Secure Online Banking Platform</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Secure Online Banking Platform</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We provide a competitive salary package
                         that recognizes the skills and expertise
                         of our employees. YourBank believes in
@@ -40,6 +40,7 @@ export default function Protect() {
                         offering opportunities for financial growth.
                     </p>
                 </div>
+
                 <div className="bg-[linear-gradient(114deg,rgba(202,255,51,0.1)_0%,rgba(38,38,38,0)_17%,rgba(38,38,38,0)_69%,rgba(38,38,38,0.8)_100%)] rounded-[20px] phone:p-[24px] 2xl:p-[40px] 4xl:p-[50px] border-[1px] border-[#262626] flex flex-col gap-[40px]">
                     <div className="flex items-center phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] ml-[25px]">
                         <div className="relative flex items-center justify-center mt-[20px]">
@@ -54,10 +55,10 @@ export default function Protect() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Multi-Factor Authentication</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Multi-Factor Authentication</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We provide a competitive salary package
                         that recognizes the skills and expertise
                         of our employees. YourBank believes in
@@ -65,6 +66,7 @@ export default function Protect() {
                         offering opportunities for financial growth.
                     </p>
                 </div>
+
                 <div className="bg-[linear-gradient(114deg,rgba(202,255,51,0.1)_0%,rgba(38,38,38,0)_17%,rgba(38,38,38,0)_69%,rgba(38,38,38,0.8)_100%)] rounded-[20px] phone:p-[24px] 2xl:p-[40px] 4xl:p-[50px] border-[1px] border-[#262626] flex flex-col gap-[40px]">
                     <div className="flex items-center phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] ml-[25px]">
                         <div className="relative flex items-center justify-center mt-[20px]">
@@ -79,10 +81,10 @@ export default function Protect() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Fraud Monitoring</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Fraud Monitoring</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We provide a competitive salary package
                         that recognizes the skills and expertise
                         of our employees. YourBank believes in
@@ -90,6 +92,7 @@ export default function Protect() {
                         offering opportunities for financial growth.
                     </p>
                 </div>
+
                 <div className="bg-[linear-gradient(114deg,rgba(202,255,51,0.1)_0%,rgba(38,38,38,0)_17%,rgba(38,38,38,0)_69%,rgba(38,38,38,0.8)_100%)] rounded-[20px] phone:p-[24px] 2xl:p-[40px] 4xl:p-[50px] border-[1px] border-[#262626] flex flex-col gap-[40px]">
                     <div className="flex items-center phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] ml-[25px]">
                         <div className="relative flex items-center justify-center mt-[20px]">
@@ -104,10 +107,10 @@ export default function Protect() {
                             </div>
                         </div>
 
-                        <p className="text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Secure Mobile Banking</p>
+                        <p className="font-[Lexend-Regular] text-white phone:text-[18px] 2xl:text-[20px] 4xl:text-[24px] translate-y-[9px] text-left ">Secure Mobile Banking</p>
                     </div>
 
-                    <p className="text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                    <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                         We provide a competitive salary package
                         that recognizes the skills and expertise
                         of our employees. YourBank believes in

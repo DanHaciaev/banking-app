@@ -25,20 +25,25 @@
 
 @font-face {
   font-family: "Lexend-Regular";
-  src: url("../public/fonts/Lexend-Regular.ttf");
+  src: url("/fonts/Lexend-Regular.ttf");
 }
 
 @font-face {
   font-family: "Lexend-Bold";
-  src: url("../public/fonts/Lexend-Bold.ttf");
+  src: url("/fonts/Lexend-Bold.ttf");
 }
 
 @font-face {
   font-family: "Lexend-SemiBold";
-  src: url("../public/fonts/Lexend-SemiBold.ttf");
+  src: url("/fonts/Lexend-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "Lexend-Medium";
-  src: url("../public/fonts/Lexend-Medium.ttf");
+  src: url("/fonts/Lexend-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Lexend-Light";
+  src: url("/fonts/Lexend-Light.ttf");
 }

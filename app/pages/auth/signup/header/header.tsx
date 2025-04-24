@@ -25,7 +25,7 @@ export default function Header() {
 
       {/* Desktop Nav */}
       <nav className="flex items-center gap-[26px] text-white text-[14px] 4xl:text-[18px] phone:hidden 2xl:flex font-[Lexend-Regular]">
-        <Link to="/" >Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/careers">Careers</Link>
         <Link to="/about">About</Link>
         <Link to="/security">Security</Link>

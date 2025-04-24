@@ -2,8 +2,8 @@ export default function UseCases() {
     return (
         <section className="flex flex-col gap-[80px] phone:mt-[80px] 2xl:mt-[120px] phone:mx-[20px] 2xl:mx-[80px]">
             <div className="flex flex-col gap-[10px]">
-                <p className="text-[#CAFF33] phone:text-center 2xl:text-left phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Use </span>Cases</p>
-                <p className="text-[#B3B3B3] phone:text-center 2xl:text-left text-[14px] 4xl:text-[18px]">
+                <p className="font-[Lexend-Medium] text-[#CAFF33] phone:text-center 2xl:text-left phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]"><span className="text-white">Use </span>Cases</p>
+                <p className="font-[Lexend-Light] text-[#B3B3B3] phone:text-center 2xl:text-left text-[14px] 4xl:text-[18px]">
                     At YourBank, we cater to the diverse
                     needs of individuals and businesses
                     alike, offering a wide range of
@@ -32,7 +32,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Managing Personal Finances</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Managing Personal Finances</p>
                             </div>
 
                             {/* Second block */}
@@ -49,7 +49,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Saving for the Future</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Saving for the Future</p>
                             </div>
 
                             {/* Third block */}
@@ -66,7 +66,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Homeownership</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Homeownership</p>
                             </div>
 
                             {/* Fourth block */}
@@ -83,7 +83,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Education Funding</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Education Funding</p>
                             </div>
                         </div>
                     </div>
@@ -91,9 +91,9 @@ export default function UseCases() {
                     {/* Right top block */}
                     <div className="flex flex-1 phone:max-w-[609px] phone:items-center 3xl:items-start 3xl:min-w-0 flex-col gap-[50px]">
                         <div className="flex flex-col gap-[10px] phone:items-center 3xl:items-start">
-                            <p className="phone:text-[20px] 2xl:text-[26px] 4xl:text-[30px] text-white">For Individuals</p>
+                            <p className="font-[Lexend-Medium] phone:text-[20px] 2xl:text-[26px] 4xl:text-[30px] text-white">For Individuals</p>
 
-                            <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] phone:text-center 3xl:text-left">
+                            <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] phone:text-center 3xl:text-left">
                                 For individuals, our mortgage services
                                 pave the way to homeownership, and our
                                 flexible personal loans provide vital
@@ -105,27 +105,27 @@ export default function UseCases() {
 
                         <div className="flex case:items-start gap-[30px] phone:flex-col case:flex-row phone:items-center">
                             <div className="phone:text-center case:text-left">
-                                <p className="phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">78%</p>
-                                <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Secure Retirement Planning</p>
+                                <p className="font-[Lexend-Medium] phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">78%</p>
+                                <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Secure Retirement Planning</p>
                             </div>
 
                             <div className="border-[1px] border-dashed phone:w-full case:border-0 case:border-l-[2px] case:w-auto case:h-[102px] 4xl:h-[141px] border-[#262626]"></div>
 
                             <div className="phone:text-center case:text-left">
-                                <p className="phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">63%</p>
-                                <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Manageable Debt Consolidation</p>
+                                <p className="font-[Lexend-Medium] phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">63%</p>
+                                <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Manageable Debt Consolidation</p>
                             </div>
 
                             <div className="border-[1px] border-dashed phone:w-full case:border-0 case:border-l-[2px] case:w-auto case:h-[102px] 4xl:h-[141px] border-[#262626]"></div>
 
                             <div className="phone:text-center case:text-left">
-                                <p className="phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">91%</p>
-                                <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Reducing financial burdens</p>
+                                <p className="font-[Lexend-Medium] phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">91%</p>
+                                <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Reducing financial burdens</p>
                             </div>
 
                         </div>
 
-                        <button className="bg-[#1C1C1C] border-[1px] border-[#262626] rounded-[82px] py-[14px] px-[20px] w-fit text-white 2xl:text-[14px] 4xl:text-[18px]">Learn More</button>
+                        <button className="font-[Lexend-Regular] bg-[#1C1C1C] border-[1px] border-[#262626] rounded-[82px] py-[14px] px-[20px] w-fit text-white 2xl:text-[14px] 4xl:text-[18px]">Learn More</button>
                     </div>
                 </div>
 
@@ -138,9 +138,9 @@ export default function UseCases() {
                     {/* Left bottom block */}
                     <div className="flex flex-1 phone:max-w-[609px] phone:items-center 3xl:items-start 3xl:min-w-0 flex-col gap-[50px]">
                         <div className="flex flex-col gap-[10px] phone:items-center 3xl:items-start">
-                            <p className="phone:text-[20px] 2xl:text-[26px] 4xl:text-[30px] text-white">For Business</p>
+                            <p className="font-[Lexend-Medium] phone:text-[20px] 2xl:text-[26px] 4xl:text-[30px] text-white">For Business</p>
 
-                            <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] phone:text-center 3xl:text-left">
+                            <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3] phone:text-center 3xl:text-left">
                                 For businesses, we empower growth with
                                 working capital solutions that optimize
                                 cash flow, and our tailored financing
@@ -153,27 +153,27 @@ export default function UseCases() {
 
                         <div className="flex case:items-start gap-[30px] phone:flex-col case:flex-row phone:items-center">
                             <div className="phone:text-center case:text-left">
-                                <p className="phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">65%</p>
-                                <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Cash Flow Management</p>
+                                <p className="font-[Lexend-Medium] phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">65%</p>
+                                <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Cash Flow Management</p>
                             </div>
 
                             <div className="border-[1px] border-dashed phone:w-full case:border-0 case:border-l-[2px] case:w-auto case:h-[102px] 4xl:h-[141px] border-[#262626]"></div>
 
                             <div className="phone:text-center case:text-left">
-                                <p className="phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">70%</p>
-                                <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Drive Business Expansion</p>
+                                <p className="font-[Lexend-Medium] phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">70%</p>
+                                <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Drive Business Expansion</p>
                             </div>
 
                             <div className="border-[1px] border-dashed phone:w-full case:border-0 case:border-l-[2px] case:w-auto case:h-[102px] 4xl:h-[141px] border-[#262626]"></div>
 
                             <div className="phone:text-center case:text-left">
-                                <p className="phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">45%</p>
-                                <p className="phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Streamline payroll processing</p>
+                                <p className="font-[Lexend-Medium] phone:text-[40px] 4xl:text-[58px] text-[#CAFF33]">45%</p>
+                                <p className="font-[Lexend-Light] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px] text-[#B3B3B3]">Streamline payroll processing</p>
                             </div>
 
                         </div>
 
-                        <button className="bg-[#1C1C1C] border-[1px] border-[#262626] rounded-[82px] py-[14px] px-[20px] w-fit text-white 2xl:text-[14px] 4xl:text-[18px]">Learn More</button>
+                        <button className="font-[Lexend-Regular] bg-[#1C1C1C] border-[1px] border-[#262626] rounded-[82px] py-[14px] px-[20px] w-fit text-white 2xl:text-[14px] 4xl:text-[18px]">Learn More</button>
                     </div>
 
                     {/* Right bottom block */}
@@ -194,7 +194,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Startups and Entrepreneurs</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Startups and Entrepreneurs</p>
                             </div>
 
                             {/* Second block */}
@@ -211,7 +211,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Cash Flow Management</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Cash Flow Management</p>
                             </div>
 
                             {/* Third block */}
@@ -228,7 +228,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Business Expansion</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Business Expansion</p>
                             </div>
 
                             {/* Fourth block */}
@@ -245,7 +245,7 @@ export default function UseCases() {
                                     </div>
                                 </div>
 
-                                <p className="text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Payment Solutions</p>
+                                <p className="font-[Lexend-Regular] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[20px] text-center max-w-[200px]">Payment Solutions</p>
                             </div>
                         </div>
                     </div>

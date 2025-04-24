@@ -10,8 +10,8 @@ export default function LoginForm() {
                 <img src="/login/abstract.png" alt="" className="absolute z-[1] phone:w-[167px] phone:h-[159px] 2xl:w-[256px] 2xl:h-[243px] 4xl:w-[342px] 4xl:h-[325px] right-0 top-0" />
 
                 <div className="flex flex-col gap-[16px] items-center relative z-[10]">
-                    <p className="text-[#CAFF33] phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]">Login</p>
-                    <p className="text-[#BFBFBF] text-center phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">Welcome back! Please log in to access your account.</p>
+                    <p className="font-[Lexend-Medium] text-[#CAFF33] phone:text-[28px] 2xl:text-[38px] 4xl:text-[48px]">Login</p>
+                    <p className="font-[Lexend-Light] text-[#BFBFBF] text-center phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">Welcome back! Please log in to access your account.</p>
                 </div>
 
                 <form action="" className="flex flex-col justify-center items-center phone:gap-[24px] 2xl:gap-[30px] 4xl:gap-[40px] w-full">
@@ -19,14 +19,14 @@ export default function LoginForm() {
                         <input
                             type="email"
                             placeholder="Enter your Email"
-                            className="w-full max-w-[404px] p-[20px] bg-[#1A1A1A] rounded-[88px] border border-[#262626] text-white phone:text-[16px] 4xl:text-[18px]"
+                            className="font-[Lexend-Light] w-full max-w-[404px] p-[20px] bg-[#1A1A1A] rounded-[88px] border border-[#262626] text-white phone:text-[16px] 4xl:text-[18px]"
                         />
 
                         <div className="relative w-full max-w-[404px] bg-[#1A1A1A] rounded-[88px] border border-[#262626]">
                             <input
                                 type={showPassword ? "text" : "password"}
                                 placeholder="Enter your Password"
-                                className="w-full p-[20px] bg-transparent rounded-[88px] text-white phone:text-[16px] 4xl:text-[18px]"
+                                className="font-[Lexend-Light] w-full p-[20px] bg-transparent rounded-[88px] text-white phone:text-[16px] 4xl:text-[18px]"
                             />
                             <button
                                 type="button"
@@ -38,17 +38,17 @@ export default function LoginForm() {
                         </div>
                     </div>
 
-                    <p className="text-white underline phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">Forgot Password?</p>
+                    <p className="font-[Lexend-Regular] text-white underline phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">Forgot Password?</p>
 
                     <div className="max-w-[404px] w-full flex flex-col gap-[24px] px-0 box-border">
-                        <button className="bg-[#CAFF33] rounded-[63px] px-[24px] py-[14px] 2xl:text-[14px] 4xl:text-[18px]">Login</button>
-                        <button className="bg-[#262626] rounded-[63px] px-[24px] py-[14px] 2xl:text-[14px] 4xl:text-[18px] text-white border border-[#333333]">Sign Up</button>
+                        <button className="font-[Lexend-Regular] bg-[#CAFF33] rounded-[63px] px-[24px] py-[14px] 2xl:text-[14px] 4xl:text-[18px]">Login</button>
+                        <button className="font-[Lexend-Regular] bg-[#262626] rounded-[63px] px-[24px] py-[14px] 2xl:text-[14px] 4xl:text-[18px] text-white border border-[#333333]">Sign Up</button>
                     </div>
 
 
                     <div className="flex flex-col items-center gap-[30px] max-w-[404px] w-full">
                         <div className="border-t-[1px] relative w-full border-[#B3B3B3]">
-                            <p className="absolute top-[-14px] bg-[#1A1A1A] px-[12px] left-[50%] -translate-x-1/2 phone:text-[14px] 2xl:text-[18px] text-[#B3B3B3] whitespace-nowrap">Or Continue with</p>
+                            <p className="font-[Lexend-Regular] absolute phone:top-[-11px] 4xl:top-[-14px] bg-[#1A1A1A] px-[12px] left-[50%] -translate-x-1/2 phone:text-[14px] 4xl:text-[18px] text-[#B3B3B3] whitespace-nowrap">Or Continue with</p>
                         </div>
 
 
@@ -98,6 +98,3 @@ export default function LoginForm() {
     );
 }
 
-// 2xl:mx-auto 2xl:max-w-[1064px] 4xl:max-w-[1326px]
-
-// phone:max-w-fit max-w-[calc(100%-160px)] 

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1C1C1C] flex flex-col phone:pt-[50px] phone:px-[20px] phone:pb-[30px] phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] 2xl:pt-[60px] 2xl:px-[80px] 4xl:px-[162px] 4xl:pt-[100px] 4xl:pb-[50px] items-center">
+        <footer className="bg-[#1C1C1C] flex flex-col phone:mt-[80px] 2xl:mt-[120px] phone:pt-[50px] phone:px-[20px] phone:pb-[30px] phone:gap-[30px] 2xl:gap-[40px] 4xl:gap-[50px] 2xl:pt-[60px] 2xl:px-[80px] 4xl:px-[162px] 4xl:pt-[100px] 4xl:pb-[50px] items-center">
             <div className="flex flex-col items-center phone:gap-[24px] 2xl:gap-[40px] 4xl:gap-[50px]">
                 <img src="/login/logo.png" alt="" className="phone:w-[132px] 4xl:w-[156px]" />
 
-                <nav className="flex items-center phone:gap-[14px] 4xl:gap-[26px] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
+                <nav className="font-[Lexend-Regular] flex items-center phone:gap-[14px] 4xl:gap-[26px] text-white phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">
                     <Link to="/">Home</Link>
                     <Link to="/careers">Careers</Link>
                     <Link to="/about">About</Link>
@@ -19,15 +19,15 @@ export default function Footer() {
             <div className="flex justify-center items-center gap-[20px] 2xl:text-[16px] 4xl:text-[18px] flex-wrap">
                 <div className="flex items-center gap-[6px]">
                     <img src="/login/mail.png" alt="" className="w-[20px]" />
-                    <p className="text-[#E4E4E7]">hello@skillbirdge.com</p>
+                    <p className="font-[Lexend-Regular] text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">hello@skillbirdge.com</p>
                 </div>
                 <div className="flex items-center gap-[6px]">
                     <img src="/login/phone.png" alt="" className="w-[20px]" />
-                    <p className="text-[#E4E4E7]">+91 91813 23 2309</p>
+                    <p className="font-[Lexend-Regular] text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">+91 91813 23 2309</p>
                 </div>
                 <div className="flex items-center gap-[6px]">
                     <img src="/login/point.png" alt="" className="w-[20px]" />
-                    <p className="text-[#E4E4E7]">Somewhere in the World</p>
+                    <p className="font-[Lexend-Regular] text-[#E4E4E7] phone:text-[14px] 2xl:text-[16px] 4xl:text-[18px]">Somewhere in the World</p>
                 </div>
             </div>
 
@@ -46,9 +46,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="text-[#B3B3B3] 2xl:text-[14px] 4xl:text-[18px]">YourBank All Rights Reserved</p>
+                <p className="font-[Lexend-Light] text-[#B3B3B3] text-[14px] 4xl:text-[18px]">YourBank All Rights Reserved</p>
 
-                <p className="text-[#B3B3B3] 2xl:text-[14px] 4xl:text-[18px]">Privacy Policy | Terms of Service</p>
+                <p className="font-[Lexend-Light] text-[#B3B3B3] text-[14px] 4xl:text-[18px]">Privacy Policy | Terms of Service</p>
             </div>
         </footer>
     )

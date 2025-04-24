@@ -53,8 +53,8 @@ export default function Header() {
         <div className="flex flex-col gap-[20px] items-center p-[20px] font-[Lexend-Regular]">
           <Link to="/" className="text-white">Home</Link>
           <Link to="/careers" className="text-white">Careers</Link>
-          <Link to="/about" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px] text-white">About</Link>
-          <Link to="/security" className="text-white">Security</Link>
+          <Link to="/about" className="text-white">About</Link>
+          <Link to="/security" className="bg-[#262626] rounded-[82px] px-[24px] py-[12px] text-white">Security</Link>
           <Link to="/signUp" className="text-white text-[14px] 4xl:text-[18px] mt-[20px]">Sign Up</Link>
           <Link to="/logIn" className="bg-[#CAFF33] rounded-[82px] py-[12px] w-fit px-[24px] text-[#1C1C1C] text-[14px] 4xl:text-[18px]">Login</Link>
         </div>
