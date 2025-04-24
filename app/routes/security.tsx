@@ -3,8 +3,8 @@ import { SecurityPage } from "../pages/routes/securityPage/securityPage"
 
 export function meta({ }: Route.MetaArgs) {
     return [
-        { title: "Security" },
-        { name: "description", content: "Security Page" },
+        { title: "YourBank's Security" },
+        { name: "description", content: "YourBank's Security Page" },
     ];
 }
 

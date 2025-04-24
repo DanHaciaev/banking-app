@@ -3,8 +3,8 @@ import { Login } from "../pages/auth/login/login";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Login" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "YourBank's Login" },
+    { name: "description", content: "YourBank's Login Page" },
   ];
 }
 

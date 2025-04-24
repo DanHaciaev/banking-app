@@ -3,8 +3,8 @@ import { AboutPage } from "../pages/routes/aboutPage/aboutPage"
 
 export function meta({ }: Route.MetaArgs) {
     return [
-        { title: "About" },
-        { name: "description", content: "About Page" },
+        { title: "YourBank's About" },
+        { name: "description", content: "YourBank's About Page" },
     ];
 }
 

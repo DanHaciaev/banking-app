@@ -3,8 +3,8 @@ import { SignUp } from "../pages/auth/signup/signUp"
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "SignUp" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "YourBank's SignUp" },
+    { name: "description", content: "YourBank's SignUp" },
   ];
 }
 

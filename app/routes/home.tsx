@@ -3,8 +3,8 @@ import { MainPage } from "../pages/routes/mainPage/mainPage"
 
 export function meta({ }: Route.MetaArgs) {
     return [
-        { title: "Home" },
-        { name: "description", content: "Welcome to React Router!" },
+        { title: "YourBank" },
+        { name: "description", content: "Welcome to YourBank!" },
     ];
 }
 
