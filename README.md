@@ -64,8 +64,8 @@ This project was created to demonstrate:
 
 ## ✨ Author
 
-**[Your Name or Nickname]**  
-🌐 [Portfolio or GitHub Link]
+**Danila Haciaev**  
+🌐 (https://github.com/DanHaciaev)
 
 ---
 
