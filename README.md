@@ -1,87 +1,71 @@
-# Welcome to React Router!
+# 💳 YourBank
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+**YourBank** is a modern banking website template built to showcase front-end development and responsive design skills.  
+The project is made with **Vue 3** and **Tailwind CSS**.
 
 ---
 
-Built with ❤️ using React Router.
+## 🖥️ Pages
+
+Below are previews of each page (first screen) with links to view the full page live.
+
+---
+
+### 🏠 Home
+![Home Preview](/public/screens/main.png)  
+🔗 [View Full Page](https://banking-app-ruddy-one.vercel.app/)
+
+---
+
+### 👥 About
+![About Preview](/public/screens/about.png)  
+🔗 [View Full Page](https://banking-app-ruddy-one.vercel.app/about)
+
+---
+
+### 💼 Careers
+![Careers Preview](/public/screens/careers.png)  
+🔗 [View Full Page](https://banking-app-ruddy-one.vercel.app/careers)
+
+---
+
+### 🔒 Security
+![Security Preview](/public/screens/security.png)  
+🔗 [View Full Page](https://banking-app-ruddy-one.vercel.app/security)
+
+---
+
+### 🔐 Login / Signup
+![Login Preview](/public/screens/login.png)  
+🔗 [View Login Page](https://banking-app-ruddy-one.vercel.app/logIn)  
+![Signup Preview](/public/screens/signup.png)  
+🔗 [View Signup Page](https://banking-app-ruddy-one.vercel.app/signUp)
+
+---
+
+## 💡 Purpose
+
+This project was created to demonstrate:
+- modern and responsive layout;  
+- clean and semantic HTML structure;  
+- component-based organization in Vue;  
+- visual design with Tailwind CSS.
+
+---
+
+## 🧰 Tech Stack
+
+- **Vue 3**
+- **Tailwind CSS**
+- **Vite** (for fast development build)
+- **Responsive design**
+
+---
+
+## ✨ Author
+
+**[Your Name or Nickname]**  
+🌐 [Portfolio or GitHub Link]
+
+---
+
