@@ -65,7 +65,6 @@ This project was created to demonstrate:
 ## ✨ Author
 
 **Danila Haciaev**  
-🌐 (https://github.com/DanHaciaev)
 
 ---
 
